@@ -1,0 +1,36 @@
+<% include ./partials/header %>
+<div class="ui main text container segment">
+    <div class="ui huge header">New Post</div>
+    <form class="ui form" action="/blogs" method="POST">
+        <div class="field">
+            <label>Title</label>
+            <input type="text" name="blog[title]" placeholder="title"></input>
+        </div>
+         <div class="field">
+            <label>Image</label>
+            <input type="text" name="blog[image]" placeholder="image URL"></input>
+        </div>
+        <div class="field">
+            <label>Post content</label>
+            <textarea id="editor" name="blog[body]"></textarea>
+        </div>
+        <input class="ui blue big basic button" type="submit"></input>
+    </form>
+</div>
+
+    <a href="/Blogs" id="backbutton" class="mini ui purple basic icon button">
+  <i class="left arrow icon"></i>
+  Back
+</a>
+
+<!--CAN'T MAKE CKEDITOR SHOW TEXT WITHOUT HTML TAGS!!-->
+<!--<script src="https://cdn.ckeditor.com/ckeditor5/10.0.0/classic/ckeditor.js"></script>-->
+<!--<script>-->
+<!--    ClassicEditor-->
+<!--        .create( document.querySelector( '#editor1' ) )-->
+<!--        .catch( error => {-->
+<!--            console.error( error );-->
+<!--        } );-->
+<!--</script>-->
+
+<% include ./partials/footer %>

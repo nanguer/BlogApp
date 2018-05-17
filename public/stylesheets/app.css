@@ -1,0 +1,32 @@
+i.icon {
+    font-size: 2em;
+}
+
+.container.main{
+    margin-top: 7em; 
+}
+
+#delete {
+    display: inline;
+}
+
+p:last-child {
+    margin-bottom: 20px;
+}
+
+#backbutton {
+    margin-left: 16px;
+}
+
+.ui.header, .ui.menu, .ui.text.container, .ui.items > .item > .content > .header, div.ui.fixed.inverted.menu > div > div {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+}
+
+div.content > span{
+font-weight: 700;
+}
+
+div.ui.top.attached > div > img{
+    margin-bottom: 0.5em;
+}

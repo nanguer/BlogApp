@@ -1,0 +1,24 @@
+{
+  "name": "restfulblogapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nahuel Gimenez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-sanitizer": "^1.0.3",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.1",
+    "semantic-ui": "^2.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
